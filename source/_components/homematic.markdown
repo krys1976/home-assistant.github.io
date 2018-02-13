@@ -230,3 +230,11 @@ action:
     param: SET_TEMPERATURE
     value: 23.0
 ```
+
+Manually set lock on keymatic
+```yaml
+...
+action:
+  service: lock.lock
+  entity_id: lock.leq1234567
+```
